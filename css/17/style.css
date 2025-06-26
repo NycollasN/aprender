@@ -1,0 +1,213 @@
+@charset "utf-8";
+dia
+
+body{
+    background-color: rgb(211, 192, 229);
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@font-face {
+   font-family: 'filex' ;
+   src: url('Filxgirl.TTF') format('truetype');
+   font-weight: normal;
+   font-style: italic;
+   
+}
+@font-face {
+   font-family: 'duas' ;
+   src: url('duas.ttf') format(truetype);
+   font-weight: normal;
+   font-style: italic;
+}
+
+
+/*#C66DCF
+#D99BE0
+
+#EA59FA
+#79697A
+#4E3E50*/
+:root{
+  --cor0: #C66DCF;
+--cor1: #D99BE0;
+--cor2: #EA59FA;
+--cor3: #79697A;
+--cor4: #4E3E50;
+
+--font-padrao: arial, verdana, helvetica , sans-serif;
+--font-destaque: "Lovers Quarrel", cursive;
+--font-filex: 'filex', ;
+--font-duas: 'duas'
+    
+
+
+}
+ body{
+   font-family: var(--font-padrao);
+    background-color: #d4add8
+    
+ }
+ *{
+   margin: 0px
+   
+ }
+ a.externo::after{
+  content: '\00A0\1F517';
+ }
+
+ header{
+  background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+
+ }
+ header > h1 {
+   font-family: var(--font-duas);
+   min-height: 150px;
+   text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 2.4em;
+    margin: auto;
+    text-shadow: 2px 3px 2px #2320246e;
+    
+  
+    
+
+ } 
+ header > p{
+  text-align: center;
+   color:white;
+   font-size: 20px;
+   width: 500px;
+   margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+
+   
+   
+ }
+ 
+ nav{
+   background-color: #4E3E50;
+   padding: 10px;
+   box-shadow: 0px 7px 9px #4E3E50
+ }
+ nav > a{
+  color: white;
+  padding: 10px;
+  text-decoration:none;
+border-radius: 5px;
+ }
+ nav > a:hover{
+  background-color: #C66DCF;
+  color: #4E3E50;
+ }
+ main{
+   background-color: white;
+   min-width: 300p;
+   max-width: 800px;
+   margin: auto;
+   background-color: white;
+   padding: 20px;
+   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
+   margin-bottom: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius:10px ;
+ }
+ main h1 {
+   font-family: var(--font-destaque);
+   
+    color: var(--cor4);
+     background-image: linear-gradient(to right, var(--cor0), transparent);
+
+   
+ }
+ main h2{
+   font-family: var(--font-destaque);
+   color: #4E3E50;
+ background-image: linear-gradient(to right, var(--cor0), transparent);
+ }
+ main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.5em;
+font-size: 1em;
+ }
+ main strong{
+ color:#882e91;
+ 
+ padding: 0px;
+
+ }
+ main a{
+  color: #EA59FA;
+  text-decoration: none;
+  
+ }
+ main a:hover{
+  text-decoration: underline;
+ }
+
+
+img{
+  width: 100%;
+}
+main img.pequena{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}data
+
+
+div.video{
+  margin: 0px -20px 30px -20px ;
+  padding: 20px ;
+  padding-bottom: 57%;
+  position: relative;
+}
+div.video > iframe{
+  position: relative;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 20em;
+}
+
+aside> h3{
+  background-color: #d775e4;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius:  10px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  color: #342a35;
+  margin: -8px -8px -8px -8px;
+  box-shadow:1px 1px 1px  #342a357e;
+}
+aside{
+  background-color:#D99BE0 ;
+  border-radius: 10px;
+  padding: 5px;
+  list-style-position: inside;
+  box-shadow:1px 1px 1px #342a3596;
+}
+aside > ul{
+  columns: 2 ;
+  list-style-type: '\2611\00A0 ';
+}
+footer{
+  background-color: #4E3E50;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+footer a{ 
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}

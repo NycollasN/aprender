@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ghit hab; personalizando o link</title> 
+    
+        
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{color: brown;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:visited{
+    color: rgb(105, 20, 20);
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{ 
+    color: blue;
+}
+a::before{content: '✔';
+color: rgb(190, 190, 206);}
+a::after{
+    content:'✔';
+    color: rgb(220, 215, 250);
+}
+
+
+    </style>
+        
+    
+</head>
+
+<body><h1>links personalizado</h1>
+    <ul>
+        <li ><a href="https:gustavoguanabara.github.io" target="_blank" rel="external">repositorio github</a></li>
+        <li><a href="https:youtube.com/cursoemvideo/" target="_blank" rel="external" >canal do youtube</a></li>
+        
+    </ul>
+
+    
+</body>
+</html>
